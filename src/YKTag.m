@@ -127,7 +127,7 @@
     [super dealloc];
 }
 
-- (void)addRegexDeclaration:(NSString *)regex hint:(id)hint;
+- (void)addRegexDeclaration:(NSString *)regex hint:(id)hint
 {
     [regexDeclarations setValue:(hint ? hint : [NSNull null]) forKey:regex];
 }
