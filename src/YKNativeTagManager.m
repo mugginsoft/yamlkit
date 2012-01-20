@@ -140,7 +140,7 @@ static YKNativeTagManager *__sharedManager = nil;
     return UINT_MAX;
 }
 
-- (void)release
+- (oneway void)release
 {
     // Do nothing
 }
