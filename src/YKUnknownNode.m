@@ -53,8 +53,8 @@ inline YKMark YKMakeMark(NSUInteger line, NSUInteger column, NSUInteger idx)
 
 - (NSString *)description
 {
-    return [NSString stringWithFormat:@"{!%@ %@ (%d:%d),(%d:%d)}", explicitTag, stringValue,
-            position.start.line, position.start.column, position.end.line, position.end.column];
+    return [NSString stringWithFormat:@"{!%@ %@ (%ld:%ld),(%ld:%ld)}", explicitTag, stringValue,
+            (long)position.start.line,  (long)position.start.column,  (long)position.end.line,  (long)position.end.column];
 }
 
 @synthesize position;
