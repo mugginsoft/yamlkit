@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		AB19B5B516A0CA8700CCE1EA /* RegexKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = EF40B56512506FFF009BCF6C /* RegexKitLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD1DE6870F0960D3006FDAB3 /* YAMLKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CD1DE6860F0960D3006FDAB3 /* YAMLKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD2309EA0F0BF9AB00F02DC7 /* TestEmitting.m in Sources */ = {isa = PBXBuildFile; fileRef = CD69C23E0F098A4C0011BAB6 /* TestEmitting.m */; };
 		CD2913050F0E85930003FE76 /* YKConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = CD2913040F0E85930003FE76 /* YKConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -256,6 +257,7 @@
 				EF40B57E1250726D009BCF6C /* NSString+YAMLKit.h in Headers */,
 				EF4D8583126B0FD5005C152A /* NSData+Base64.h in Headers */,
 				EF3AE437126C1B2A0052D7E8 /* YKUnknownNode.h in Headers */,
+				AB19B5B516A0CA8700CCE1EA /* RegexKitLite.h in Headers */,
 				EFCBCA50126C2FD50097B74B /* YKTag.h in Headers */,
 				EF4A6D89126E3DD6006493C1 /* YKNativeTagManager.h in Headers */,
 			);
