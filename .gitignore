@@ -7,3 +7,9 @@ build
 test/test.bin.cpgz
 *.xcworkspace
 xcuserdata
+
+*.o
+.libs/
+*.lo
+
+
